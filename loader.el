@@ -13,11 +13,13 @@
 (require 'move-text)
 (require 'paredit)
 
+(require 'init-yasnippet)
+(require 'init-multiterm)
+(require 'init-auto-complete)
 (require 'init-startup)
 (require 'init-tabbar)
 (require 'init-paredit)
 (require 'init-dired)
 (require 'init-key)
-(require 'init-multiterm)
 
 (provide 'loader)

@@ -28,7 +28,12 @@
 (define-key paredit-mode-map (kbd "M-N") 'backward-kill-word)
 (define-key paredit-mode-map (kbd "M-l") 'less-minor-mode)
 
-; less快捷键
+;; 自动补全
+(define-key ac-complete-mode-map (kbd "M-h") 'ac-complete)   ; 补全当前选中
+(define-key ac-complete-mode-map (kbd "M-,") 'ac-next)       ; 上一个
+(define-key ac-complete-mode-map (kbd "M-.") 'ac-previous)   ; 下一个
+
+;; less快捷键
 (define-key less-minor-mode-map (kbd "q") 'dired-jump)
 (define-key less-minor-mode-map (kbd "i") 'less-minor-mode)
 
