@@ -1,1 +1,1 @@
-# recat-emacs
+# Recat Emacs
