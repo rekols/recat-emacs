@@ -8,9 +8,19 @@
 (global-set-key (kbd "C-c h") 'split-window-horizontally)     ; 水平分屏
 (global-set-key (kbd "C-x c") 'delete-other-windows)          ; 关闭其他buffer
 (global-set-key (kbd "C-x f") 'ido-find-file)                 ; 查找文件
-(global-set-key (kbd "M-4") 'whitespace-cleanup)              ; 清除所有空格
+(global-set-key (kbd "s-f") 'find-file-root)                  ; root打开
+(global-set-key (kbd "<C-tab>") 'tabbar-backward-tab)         ; 切换tab
+(global-set-key (kbd "<C-left>") 'tabbar-backward-tab)        ; 向左切换tab
+(global-set-key (kbd "<C-right>") 'tabbar-forward-tab)        ; 向右切换tab
 
 ; paredit 快捷键
 (define-key paredit-mode-map (kbd "M-h") 'set-mark-command)
+(define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格
+(define-key paredit-mode-map (kbd "C-:") 'comment-or-uncomment-region+) ; 注释当前行
+(define-key paredit-mode-map (kbd "s-N") 'move-text-down)               ; 移动当前行到下一行
+(define-key paredit-mode-map (kbd "s-P") 'move-text-up)                 ; 移动当前行到上一行
+(define-key paredit-mode-map (kbd "s-J") 'scroll-up-line)               ; 往上滚动
+(define-key paredit-mode-map (kbd "s-K") 'scroll-down-line)             ; 往下滚动
+(define-key paredit-mode-map (kbd "M-N") 'backward-kill-word)
 
 (provide 'init-key)

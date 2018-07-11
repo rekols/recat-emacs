@@ -9,6 +9,8 @@
 (add-subdirs-to-load-path "~/recat-emacs/themes")
 
 (require 'dark-theme)
+(require 'basic-tool)
+(require 'move-text)
 (require 'paredit)
 
 (require 'init-startup)
