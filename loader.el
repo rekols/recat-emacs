@@ -17,6 +17,7 @@
 (require 'init-multiterm)
 (require 'init-auto-complete)
 (require 'init-startup)
+(require 'init-indent)
 (require 'init-tabbar)
 (require 'init-paredit)
 (require 'init-dired)

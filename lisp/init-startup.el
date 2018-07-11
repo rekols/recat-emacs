@@ -7,6 +7,7 @@
 (setq split-width-threshold nil)   ; 强制上下分屏方式
 (setq-default cursor-type 'bar)    ; 光标样式
 (setq make-backup-files nil)       ; 关闭自动备份
+(setq-default comment-style 'indent) ; 自动缩进的注释风格
 ;(setq inhibit-startup-screen t)   ; 去除欢迎页面
 
 (scroll-bar-mode -1)               ; 不显示滚动条
