@@ -1,4 +1,6 @@
-; 全局快捷键
+(require 'less)
+
+;全局快捷键
 (global-set-key (kbd "M-o") 'backward-delete-char-untabify)   ; 向前删除一个字符
 (global-set-key (kbd "C-/") 'undo)                            ; 撤销
 (global-set-key (kbd "C-?") 'redo)                            ; 重做
@@ -18,11 +20,16 @@
 (define-key paredit-mode-map (kbd "M-h") 'set-mark-command)
 (define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格
 (define-key paredit-mode-map (kbd "C-:") 'comment-or-uncomment-region+) ; 注释当前行
-(define-key paredit-mode-map (kbd "C-j") 'paredit-newline)
+(define-key paredit-mode-map (kbd "C-j") 'paredit-newline)              ; 新建一行
 (define-key paredit-mode-map (kbd "s-N") 'move-text-down)               ; 移动当前行到下一行
 (define-key paredit-mode-map (kbd "s-P") 'move-text-up)                 ; 移动当前行到上一行
 (define-key paredit-mode-map (kbd "s-J") 'scroll-up-line)               ; 往上滚动
 (define-key paredit-mode-map (kbd "s-K") 'scroll-down-line)             ; 往下滚动
 (define-key paredit-mode-map (kbd "M-N") 'backward-kill-word)
+(define-key paredit-mode-map (kbd "M-l") 'less-minor-mode)
+
+; less快捷键
+(define-key less-minor-mode-map (kbd "q") 'dired-jump)
+(define-key less-minor-mode-map (kbd "i") 'less-minor-mode)
 
 (provide 'init-key)
