@@ -1,4 +1,4 @@
-; 全局快捷键设置
+; 全局快捷键
 (global-set-key (kbd "M-o") 'backward-delete-char-untabify)   ; 向前删除一个字符
 (global-set-key (kbd "C-/") 'undo)                            ; 撤销
 (global-set-key (kbd "C-?") 'redo)                            ; 重做
@@ -9,5 +9,8 @@
 (global-set-key (kbd "C-x c") 'delete-other-windows)          ; 关闭其他buffer
 (global-set-key (kbd "C-x f") 'ido-find-file)                 ; 查找文件
 (global-set-key (kbd "M-4") 'whitespace-cleanup)              ; 清除所有空格
+
+; paredit 快捷键
+(define-key paredit-mode-map (kbd "M-h") 'set-mark-command)
 
 (provide 'init-key)
