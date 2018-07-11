@@ -12,6 +12,7 @@
 (global-set-key (kbd "<C-tab>") 'tabbar-backward-tab)         ; 切换tab
 (global-set-key (kbd "<C-left>") 'tabbar-backward-tab)        ; 向左切换tab
 (global-set-key (kbd "<C-right>") 'tabbar-forward-tab)        ; 向右切换tab
+(global-set-key (kbd "M-t") 'multi-term-dedicated-toggle)     ; 在minibuffer中打开终端
 
 ; paredit 快捷键
 (define-key paredit-mode-map (kbd "M-h") 'set-mark-command)

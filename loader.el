@@ -18,5 +18,6 @@
 (require 'init-paredit)
 (require 'init-dired)
 (require 'init-key)
+(require 'init-multiterm)
 
 (provide 'loader)
