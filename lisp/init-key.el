@@ -14,17 +14,17 @@
 (global-set-key (kbd "<C-tab>") 'tabbar-backward-tab)         ; 切换tab
 (global-set-key (kbd "<C-left>") 'tabbar-backward-tab)        ; 向左切换tab
 (global-set-key (kbd "<C-right>") 'tabbar-forward-tab)        ; 向右切换tab
-(global-set-key (kbd "M-t") 'multi-term-dedicated-toggle)     ; 在minibuffer中打开终端
+(global-set-key (kbd "M-t") 'shell-pop)                       ; 在minibuffer中打开终端
+(global-set-key (kbd "s-J") 'scroll-up-line)               ; 往上滚动
+(global-set-key (kbd "s-K") 'scroll-down-line)             ; 往下滚动
+(global-set-key (kbd "M-h") 'set-mark-command)
 
 ; paredit 快捷键
-(define-key paredit-mode-map (kbd "M-h") 'set-mark-command)
 (define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格
 (define-key paredit-mode-map (kbd "C-:") 'comment-or-uncomment-region+) ; 注释当前行
 (define-key paredit-mode-map (kbd "C-j") 'paredit-newline)              ; 新建一行
 (define-key paredit-mode-map (kbd "s-N") 'move-text-down)               ; 移动当前行到下一行
 (define-key paredit-mode-map (kbd "s-P") 'move-text-up)                 ; 移动当前行到上一行
-(define-key paredit-mode-map (kbd "s-J") 'scroll-up-line)               ; 往上滚动
-(define-key paredit-mode-map (kbd "s-K") 'scroll-down-line)             ; 往下滚动
 (define-key paredit-mode-map (kbd "M-N") 'backward-kill-word)
 (define-key paredit-mode-map (kbd "M-l") 'less-minor-mode)
 
