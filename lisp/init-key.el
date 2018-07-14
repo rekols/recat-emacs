@@ -37,4 +37,9 @@
 (define-key less-minor-mode-map (kbd "q") 'dired-jump)
 (define-key less-minor-mode-map (kbd "i") 'less-minor-mode)
 
+;; isearch快捷键
+(define-key isearch-mode-map (kbd "M-%") 'isearch-query-replace)
+(define-key isearch-mode-map (kbd "M-s") 'isearch-repeat-forward)
+(define-key isearch-mode-map (kbd "M-o") 'isearch-delete-char)
+
 (provide 'init-key)
