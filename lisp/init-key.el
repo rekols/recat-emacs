@@ -1,4 +1,5 @@
 (require 'less)
+(require 'multi-term)
 
 ;全局快捷键
 (global-set-key (kbd "M-o") 'backward-delete-char-untabify)   ; 向前删除一个字符
@@ -14,7 +15,7 @@
 (global-set-key (kbd "<C-tab>") 'tabbar-backward-tab)         ; 切换tab
 (global-set-key (kbd "<C-left>") 'tabbar-backward-tab)        ; 向左切换tab
 (global-set-key (kbd "<C-right>") 'tabbar-forward-tab)        ; 向右切换tab
-(global-set-key (kbd "M-t") 'shell-pop)                       ; 在minibuffer中打开终端
+(global-set-key (kbd "M-t") 'multi-term-dedicated-toggle)     ; 在minibuffer中打开终端
 (global-set-key (kbd "s-J") 'scroll-up-line)                  ; 往上滚动
 (global-set-key (kbd "s-K") 'scroll-down-line)                ; 往下滚动
 (global-set-key (kbd "M-h") 'set-mark-command)
@@ -38,7 +39,7 @@
 (define-key less-minor-mode-map (kbd "i") 'less-minor-mode)
 
 ;; isearch快捷键
-(define-key isearch-mode-map (kbd "M-%") 'isearch-query-replace)
+(define-key isearch-mode-map (kbd "M-%") 'isearch-query-replace)    ; 替换字符
 (define-key isearch-mode-map (kbd "M-s") 'isearch-repeat-forward)
 (define-key isearch-mode-map (kbd "M-o") 'isearch-delete-char)
 

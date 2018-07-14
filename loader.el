@@ -13,7 +13,6 @@
 (require 'move-text)
 (require 'paredit)
 
-(require 'init-shell)
 (require 'init-yasnippet)
 (require 'init-auto-complete)
 (require 'init-startup)
