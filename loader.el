@@ -4,9 +4,9 @@
     (add-to-list 'load-path dir)
    (normal-top-level-add-subdirs-to-load-path)))
 
-(add-subdirs-to-load-path "~/recat-emacs/lisp")
-(add-subdirs-to-load-path "~/recat-emacs/extensions")
-(add-subdirs-to-load-path "~/recat-emacs/themes")
+(add-subdirs-to-load-path "~/remacs/lisp")
+(add-subdirs-to-load-path "~/remacs/extensions")
+(add-subdirs-to-load-path "~/remacs/themes")
 
 (require 'dark-theme)
 (require 'basic-tool)
@@ -20,6 +20,7 @@
 (require 'init-tabbar)
 (require 'init-indent)
 (require 'init-dired)
+(require 'init-ide)
 (require 'init-key)
 
 (provide 'loader)
