@@ -28,9 +28,9 @@
 
    ;; mode-line
    '(mode-line ((t (:background "#474C51" :foreground "white" :box(:color "#474C51" :line-width 1)))))
-   '(mode-line-inactive ((t (:background "#2F3338" :foreground "white" :box(:color "#2F3338" :line-width 1)))))
-   `(mode-line-buffer-id ((t (:weight bold))))
-   `(mode-line-emphasis ((t (:weight bold))))
+   '(mode-line-buffer-id ((t (:weight bold))))
+   '(mode-line-emphasis ((t (:weight bold))))
+   '(mode-line-inactive ((t (:background "#24292E" :foreground "#24292E" :height 0.1 :box(:color "#24292E" :line-width 1)))))
 
    ;; tabbar
    '(tabbar-default ((t (:inherit variable-pitch :background "#24292E" :foreground "green" :height 1.1 :family "Droid Sans Mono"))))
