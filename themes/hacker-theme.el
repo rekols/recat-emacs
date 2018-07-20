@@ -43,6 +43,20 @@
 
    ;; dired
    '(diredp-dir-heading ((t (:background "#24292E" :foreground "Gold"))))
+
+   ;; font-lock
+   `(font-lock-builtin-face ((t (:foreground "RosyBrown4"))))
+   `(font-lock-comment-face ((t (:foreground "gray30"))))
+   ;; `(font-lock-comment-delimiter-face ((default (:inherit (font-lock-comment-face)))))
+   ;; `(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
+   ;; `(font-lock-function-name-face ((t (:foreground ,atom-one-dark-blue))))
+   ;; `(font-lock-keyword-face ((t (:foreground ,atom-one-dark-purple))))
+   ;; `(font-lock-preprocessor-face ((t (:foreground ,atom-one-dark-mono-2))))
+   ;; `(font-lock-string-face ((t (:foreground ,atom-one-dark-green))))
+   ;; `(font-lock-type-face ((t (:foreground ,atom-one-dark-orange-2))))
+   `(font-lock-constant-face ((t (:foreground "magenta4"))))
+   ;; `(font-lock-variable-name-face ((t (:foreground ,atom-one-dark-red-1))))
+   ;; `(font-lock-warning-face ((t (:foreground ,atom-one-dark-mono-3 :bold t))))
 )
 
 (provide 'hacker-theme)
