@@ -15,10 +15,10 @@
 '(tabbar-background-color "gray7"))
 
 (custom-set-faces
-   '(default ((t (:background "gray7" :foreground "#00FF00"))))  ; 全局背景
-   '(hl-line ((t (:background "gray17"))))                        ; 高亮当前行
-   '(region ((t (:background "green4" :foreground "black"))))    ; 选中区域
-   '(cursor ((t (:background "#717171"))))                         ; 光标颜色
+   '(default ((t (:background "gray7" :foreground "#00FF00"))))
+   '(hl-line ((t (:background "gray17"))))
+   '(region ((t (:background "green4" :foreground "black"))))
+   '(cursor ((t (:background "#717171"))))
 
    ;; linum
    '(linum ((t (:background "gray7" :foreground "#586E75"))))
@@ -27,10 +27,10 @@
    '(line-number-current-line ((t (:background "gray7" :foreground "gray60"))))
 
    ;; mode-line
-   '(mode-line ((t (:background "gray20" :foreground "white" :box(:color "gray25" :line-width 1)))))
+   '(mode-line ((t (:background "gray23" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
    '(mode-line-buffer-id ((t (:weight bold))))
    '(mode-line-emphasis ((t (:weight bold))))
-   '(mode-line-inactive ((t (:background "gray7" :foreground "gray7" :height 0.1 :box(:color "gray7" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "gray7" :foreground "gray7" :box(:color "gray7" :line-width 1)))))
 
    ;; isearch
    '(isearch ((t (:background "red" :foreground "white"))))
@@ -46,15 +46,15 @@
 
    ;; font-lock
    `(font-lock-builtin-face ((t (:foreground "RosyBrown4"))))
-   `(font-lock-comment-face ((t (:foreground "gray30"))))
+   `(font-lock-comment-face ((t (:foreground "gray45"))))
    `(font-lock-comment-delimiter-face ((default (:inherit (font-lock-comment-face)))))
    `(font-lock-string-face ((t (:foreground "DarkKhaki"))))
    `(font-lock-doc-face ((t (:inherit (font-lock-string-face)))))
    `(font-lock-function-name-face ((t (:foreground "gold3"))))
-   `(font-lock-keyword-face ((t (:foreground "#0048FF" :weight bold))))
-   `(font-lock-preprocessor-face ((t (:foreground "Cyan3"))))
+   `(font-lock-keyword-face ((t (:foreground "#0069FF" :weight bold))))
+   `(font-lock-preprocessor-face ((t (:foreground "Cyan"))))
    `(font-lock-type-face ((t (:foreground "DeepSkyBlue2"))))
-   `(font-lock-constant-face ((t (:foreground "magenta4"))))
+   `(font-lock-constant-face ((t (:foreground "magenta3"))))
    `(font-lock-variable-name-face ((t (:foreground "DarkOrchid"))))
    `(font-lock-warning-face ((t (:foreground "red" :bold t))))
 )
