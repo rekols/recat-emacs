@@ -32,6 +32,10 @@
    '(mode-line-emphasis ((t (:weight bold))))
    '(mode-line-inactive ((t (:background "#24292E" :foreground "#24292E" :height 0.1 :box(:color "#24292E" :line-width 1)))))
 
+   ;; isearch
+   '(isearch ((t (:background "red" :foreground "white"))))
+   '(lazy-highlight ((t (:background "black" :foreground "white"))))
+
    ;; tabbar
    '(tabbar-default ((t (:inherit variable-pitch :background "#24292E" :foreground "green" :height 1.1 :family "Droid Sans Mono"))))
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#474C51")))))
