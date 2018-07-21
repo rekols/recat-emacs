@@ -16,9 +16,11 @@
 
 (custom-set-faces
    '(default ((t (:background "gray5" :foreground "#00FF00"))))
-   '(hl-line ((t (:background "gray17"))))
+   '(hl-line ((t (:background "gray14"))))
    '(region ((t (:background "green4" :foreground "black"))))
    '(cursor ((t (:background "#717171"))))
+   '(show-paren-match ((t (:background "green" :foreground "black"))))
+   '(show-paren-mismatch ((t (:background "red" :foreground "white"))))
 
    ;; linum
    '(linum ((t (:background "gray7" :foreground "#586E75"))))
