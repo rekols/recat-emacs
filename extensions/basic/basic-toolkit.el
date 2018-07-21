@@ -83,4 +83,4 @@ use function `completion-delete'."
   (tramp-cleanup-all-connections)
   (find-file (concat "/sudo:root@localhost:" file)))
 
-(provide 'basic-tool)
+(provide 'basic-toolkit)

@@ -15,7 +15,7 @@
 '(tabbar-background-color "gray7"))
 
 (custom-set-faces
-   '(default ((t (:background "gray5" :foreground "#00FF00"))))
+   '(default ((t (:background "gray6" :foreground "#00FF00"))))
    '(hl-line ((t (:background "gray14"))))
    '(region ((t (:background "green4" :foreground "black"))))
    '(cursor ((t (:background "#717171"))))
@@ -32,7 +32,7 @@
    '(mode-line ((t (:background "gray14" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
    '(mode-line-buffer-id ((t (:weight bold))))
    '(mode-line-emphasis ((t (:weight bold))))
-   '(mode-line-inactive ((t (:background "gray7" :foreground "gray7" :box(:color "gray7" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "gray6" :foreground "gray6" :box(:color "gray6" :line-width 1)))))
 
    ;; isearch
    '(isearch ((t (:background "red" :foreground "white"))))

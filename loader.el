@@ -9,7 +9,7 @@
 (add-subdirs-to-load-path "~/remacs/themes")
 
 (require 'hacker-theme)
-(require 'basic-tool)
+(require 'basic-toolkit)
 (require 'move-text)
 (require 'paredit)
 

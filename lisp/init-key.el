@@ -1,5 +1,6 @@
 (require 'less)
 (require 'multi-term)
+(require 'youdao-dictionary)
 
 ;全局快捷键
 (global-set-key (kbd "M-o") 'backward-delete-char-untabify)   ; 向前删除一个字符
@@ -20,6 +21,7 @@
 (global-set-key (kbd "s-K") 'scroll-down-line)                ; 往下滚动
 (global-set-key (kbd "M-h") 'set-mark-command)                ; 标记
 (global-set-key (kbd "M-N") 'kill-syntax-backward+)           ; 语法向前删除
+(global-set-key (kbd "C-v") 'youdao-dictionary-search-at-point-tooltip)
 
 ; paredit 快捷键
 (define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格
