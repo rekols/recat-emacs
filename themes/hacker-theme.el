@@ -8,14 +8,14 @@
 ;; Compatibility: GNU Emacs 26.1
 
 (set-fringe-mode '(0 . 0))
-(set-face-attribute 'default nil :height 130)
+(set-face-attribute 'default nil :height 150)
 (setq linum-format " %d ")
 
 (custom-set-variables
 '(tabbar-background-color "gray7"))
 
 (custom-set-faces
-   '(default ((t (:background "gray7" :foreground "#00FF00"))))
+   '(default ((t (:background "gray5" :foreground "#00FF00"))))
    '(hl-line ((t (:background "gray17"))))
    '(region ((t (:background "green4" :foreground "black"))))
    '(cursor ((t (:background "#717171"))))
@@ -27,7 +27,7 @@
    '(line-number-current-line ((t (:background "gray7" :foreground "gray60"))))
 
    ;; mode-line
-   '(mode-line ((t (:background "gray23" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
+   '(mode-line ((t (:background "gray14" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
    '(mode-line-buffer-id ((t (:weight bold))))
    '(mode-line-emphasis ((t (:weight bold))))
    '(mode-line-inactive ((t (:background "gray7" :foreground "gray7" :box(:color "gray7" :line-width 1)))))
