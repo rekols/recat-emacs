@@ -12,7 +12,7 @@
 (setq linum-format " %d ")
 
 (custom-set-variables
-'(tabbar-background-color "gray7"))
+ '(tabbar-background-color "gray7"))
 
 (custom-set-faces
    '(default ((t (:background "gray6" :foreground "#00FF00"))))
@@ -33,6 +33,8 @@
    '(mode-line-buffer-id ((t (:weight bold))))
    '(mode-line-emphasis ((t (:weight bold))))
    '(mode-line-inactive ((t (:background "gray6" :foreground "gray6" :box(:color "gray6" :line-width 1)))))
+
+   '(minibuffer-prompt ((((background dark)) (:foreground "green"))))
 
    ;; isearch
    '(isearch ((t (:background "red" :foreground "white"))))
