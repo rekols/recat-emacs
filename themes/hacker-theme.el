@@ -32,7 +32,7 @@
    '(mode-line ((t (:background "gray14" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
    '(mode-line-buffer-id ((t (:weight bold))))
    '(mode-line-emphasis ((t (:weight bold))))
-   '(mode-line-inactive ((t (:background "gray6" :foreground "gray6" :box(:color "gray6" :line-width 1)))))
+   '(mode-line-inactive ((t (:background "gray25" :foreground "gray25" :height 0.1 :box(:color "gray25" :line-width 1)))))
 
    '(minibuffer-prompt ((((background dark)) (:foreground "green"))))
 
