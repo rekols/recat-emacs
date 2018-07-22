@@ -12,6 +12,7 @@
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'paredit)
+(require 'eaf)
 
 (require 'init-yasnippet)
 (require 'init-auto-complete)

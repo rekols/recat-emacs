@@ -46,7 +46,10 @@
    '(tabbar-unselected ((t (:inherit tabbar-default :background "gray7" :foreground "#969696" :box (:line-width 1 :color "#474C51")))))
 
    ;; dired
-   '(diredp-dir-heading ((t (:background "#24292E" :foreground "Gold"))))
+   '(diredp-dir-heading ((t (:background "gray7" :foreground "Gold"))))
+   '(dired-directory ((t (:inherit (font-lock-keyword-face)))))
+   '(dired-flagged ((t (:inherit (diff-hl-delete)))))
+   '(dired-symlink ((t (:foreground "#FD5FF1"))))
 
    ;; font-lock
    `(font-lock-builtin-face ((t (:foreground "RosyBrown4"))))
