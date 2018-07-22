@@ -17,6 +17,7 @@
 (require 'init-line-numbers)
 (require 'init-yasnippet)
 (require 'init-auto-save)
+(require 'init-mode-line)
 (require 'init-startup)
 (require 'init-paredit)
 (require 'init-tabbar)
