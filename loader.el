@@ -14,14 +14,15 @@
 (require 'paredit)
 (require 'eaf)
 
-(require 'init-yasnippet)
 (require 'init-auto-complete)
+(require 'init-yasnippet)
+(require 'init-auto-save)
 (require 'init-startup)
 (require 'init-paredit)
 (require 'init-tabbar)
+(require 'init-ide)
 (require 'init-indent)
 (require 'init-dired)
-(require 'init-ide)
 (require 'init-key)
 
 (provide 'loader)

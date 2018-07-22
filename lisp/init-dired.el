@@ -25,7 +25,8 @@
   (define-key dired-mode-map (kbd "q") 'dired-up-directory-single)  ; 上一级目录
   (define-key dired-mode-map (kbd "E") 'dired-touch-now)            ; 新建文件
   (define-key dired-mode-map (kbd "S") 'dired-do-moccur)            ; 搜索文件
-  (define-key dired-mode-map (kbd "e") 'dired-find-file)            ; 打开文件或目录
+  ;; (define-key dired-mode-map (kbd "e") 'dired-find-file)         ; 打开文件或目录
+  (define-key dired-mode-map (kbd "e") 'eaf-dired-open-file)        ; 打开文件或目录
   (define-key dired-mode-map (kbd "j") 'dired-next-file-line)       ; 下
   (define-key dired-mode-map (kbd "k") 'dired-previous-file-line)   ; 上
  ))

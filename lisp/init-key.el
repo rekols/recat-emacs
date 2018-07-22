@@ -26,7 +26,7 @@
 ; paredit 快捷键
 (define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格
 (define-key paredit-mode-map (kbd "C-:") 'comment-or-uncomment-region+) ; 注释当前行
-(define-key paredit-mode-map (kbd "C-j") 'paredit-newline)              ; 新建一行
+(define-key paredit-mode-map (kbd "C-j") 'newline)                      ; 新建一行
 (define-key paredit-mode-map (kbd "s-N") 'move-text-down)               ; 移动当前行到下一行
 (define-key paredit-mode-map (kbd "s-P") 'move-text-up)                 ; 移动当前行到上一行
 (define-key paredit-mode-map (kbd "M-l") 'less-minor-mode)
