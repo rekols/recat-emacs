@@ -12,10 +12,10 @@
 (setq linum-format " %d ")
 
 (custom-set-variables
- '(tabbar-background-color "gray7"))
+ '(tabbar-background-color "gray10"))
 
 (custom-set-faces
-   '(default ((t (:background "gray7" :foreground "#00FF00"))))
+   '(default ((t (:background "gray10" :foreground "#00FF00"))))
    '(hl-line ((t (:background "gray14"))))
    '(region ((t (:background "green4" :foreground "black"))))
    '(cursor ((t (:background "#717171"))))
@@ -23,10 +23,10 @@
    '(show-paren-mismatch ((t (:background "red" :foreground "white"))))
 
    ;; linum
-   '(linum ((t (:background "gray7" :foreground "#586E75"))))
+   '(linum ((t (:background "gray10" :foreground "#586E75"))))
    ;; native line numbers (emacs version >= 26)
-   '(line-number ((t (:background "gray7" :foreground "gray35"))))
-   '(line-number-current-line ((t (:background "gray7" :foreground "gray60"))))
+   '(line-number ((t (:background "gray10" :foreground "gray35"))))
+   '(line-number-current-line ((t (:background "gray10" :foreground "gray60"))))
 
    ;; mode-line
    '(mode-line ((t (:background "gray14" :foreground "gray80" :box(:color "gray18" :line-width 1)))))
