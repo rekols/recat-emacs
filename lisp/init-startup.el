@@ -4,7 +4,7 @@
 (blink-cursor-mode -1)             ; 光标不闪动
 (show-paren-mode t)                ; 高亮显示括号
 
-(defalias 'yes-or-no-p 'y-or-n-p)  ; 烦人的yes/no
+(fset 'yes-or-no-p 'y-or-n-p)      ; 烦人的yes/no
 (setq split-width-threshold nil)   ; 强制上下分屏方式
 (setq-default cursor-type 'bar)    ; 光标样式
 (setq make-backup-files nil)       ; 关闭自动备份

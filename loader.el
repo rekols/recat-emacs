@@ -12,7 +12,6 @@
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'paredit)
-(require 'eaf)
 
 (require 'init-auto-complete)
 (require 'init-line-numbers)
@@ -25,5 +24,6 @@
 (require 'init-indent)
 (require 'init-dired)
 (require 'init-key)
+(require 'init-eaf)
 
 (provide 'loader)
