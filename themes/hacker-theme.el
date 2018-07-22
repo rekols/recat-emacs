@@ -19,6 +19,7 @@
    '(hl-line ((t (:background "gray14"))))
    '(region ((t (:background "green4" :foreground "black"))))
    '(cursor ((t (:background "#717171"))))
+   '(vertical-border ((t (:foreground "gray30" :background "gray30"))))
    '(show-paren-match ((t (:background "green" :foreground "black"))))
    '(show-paren-mismatch ((t (:background "red" :foreground "white"))))
 
