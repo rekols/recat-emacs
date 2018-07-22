@@ -22,6 +22,7 @@
 (require 'init-tabbar)
 (require 'init-ide)
 (require 'init-indent)
+(require 'init-smex)
 (require 'init-dired)
 (require 'init-key)
 (require 'init-eaf)
