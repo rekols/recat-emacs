@@ -41,9 +41,9 @@
    '(lazy-highlight ((t (:background "black" :foreground "white"))))
 
    ;; tabbar
-   '(tabbar-default ((t (:inherit variable-pitch :background "gray7" :foreground "green" :height 1.1 :family "Droid Sans Mono"))))
+   '(tabbar-default ((t (:inherit variable-pitch :background "gray10" :foreground "green" :height 1.1 :family "Droid Sans Mono"))))
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#474C51")))))
-   '(tabbar-unselected ((t (:inherit tabbar-default :background "gray7" :foreground "#969696" :box (:line-width 1 :color "#474C51")))))
+   '(tabbar-unselected ((t (:inherit tabbar-default :background "gray10" :foreground "#969696" :box (:line-width 1 :color "#474C51")))))
 
    ;; dired
    '(diredp-dir-heading ((t (:background "gray7" :foreground "Gold"))))

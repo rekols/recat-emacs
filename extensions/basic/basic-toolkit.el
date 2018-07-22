@@ -9,6 +9,11 @@
   (x-send-client-message nil 0 nil "_NET_WM_STATE" 32
                          '(2 "_NET_WM_STATE_MAXIMIZED_HORZ" 0)))
 
+(defun fullscreen ()
+  "Fullscreen."
+  (interactive)
+  (set-frame-parameter nil 'fullscreen 'fullboth))
+
 (defun kill-syntax-forward (&optional arg)
   "Kill ARG set of syntax characters after point."
   (interactive "p")
