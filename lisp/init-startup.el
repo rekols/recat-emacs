@@ -16,9 +16,4 @@
 (menu-bar-mode -1)                 ; 不显示菜单栏
 (maximize)                         ; 最大化窗口
 
-; 自动开启行号模式
-(add-hook 'text-mode-hook 'display-line-numbers-mode)
-(add-hook 'prog-mode-hook 'display-line-numbers-mode)
-(add-hook 'paredit-mode-hook 'display-line-numbers-mode)
-
 (provide 'init-startup)

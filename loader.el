@@ -15,6 +15,7 @@
 (require 'eaf)
 
 (require 'init-auto-complete)
+(require 'init-line-numbers)
 (require 'init-yasnippet)
 (require 'init-auto-save)
 (require 'init-startup)
