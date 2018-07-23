@@ -3,7 +3,7 @@
                     '(:propertize " %b ") ;; file name
                     ;; '(:propertize " %I ") ;; file size
                     '(:propertize " %m ")
-                    '(:eval (propertize (format-time-string " %p·%H:%M ") 'help-echo (format-time-string "%F %a")))
+                    '(:eval (propertize (format-time-string " %H:%M ") 'help-echo (format-time-string "%F %a")))
                     ))
 
 (provide 'init-mode-line)
