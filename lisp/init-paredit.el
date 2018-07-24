@@ -1,3 +1,5 @@
+(require 'paredit)
+
 (dolist (hook (list
                'c-mode-common-hook
                'c-mode-hook

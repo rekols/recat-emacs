@@ -1,10 +1,24 @@
 # Rekols's Emacs
 
-折腾什么 Spacemacs, DoomEmacs...说到底都是别人配的, 未必100%符合自己的口味, 不如从零折腾, 原生的 Emacs 超级难用, 所以就诞生了这个项目.
+折腾什么 Spacemacs, DoomEmacs...未必100%符合自己的口味, 每个 Emacser 都有自己的配置, 原生的 Emacs 超级难用.
 
 # 最低版本支持
 
 Emacs 26.1
+
+# 编译 Emacs
+
+```
+git clone -b master git://git.sv.gnu.org/emacs.git
+
+./autogen.sh 
+
+./configure
+
+make
+
+sudo make install
+```
 
 # 依赖
 

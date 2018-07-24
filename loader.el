@@ -11,7 +11,6 @@
 (require 'hacker-theme)
 (require 'basic-toolkit)
 (require 'move-text)
-(require 'paredit)
 
 (require 'init-auto-complete)
 (require 'init-line-numbers)
