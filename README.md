@@ -2,33 +2,33 @@
 
 折腾什么 Spacemacs, DoomEmacs...未必100%符合自己的口味, 每个 Emacser 都有自己的配置, 原生的 Emacs 超级难用.
 
-# 最低版本支持
+## 最低版本支持
 
 Emacs 26.1
 
-# 编译 Emacs
+## 编译 Emacs
 
 ```
-git clone -b master git://git.sv.gnu.org/emacs.git
+$ git clone -b master git://git.sv.gnu.org/emacs.git
 
-./autogen.sh 
+$ ./autogen.sh 
 
-./configure
+$ ./configure
 
-make
+$ make
 
-sudo make install
+$ sudo make install
 ```
 
-# 依赖
+## 依赖
 
 [SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font) 字体
 
-# 插件
+## 插件
 
-# 特点
+## 特点
 
-# 快捷键
+## 快捷键
 
 * s 为 Win 键
 * C 为 Ctrl 键
