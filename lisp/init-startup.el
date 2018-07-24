@@ -15,6 +15,5 @@
 (tool-bar-mode -1)                 ; 不显示工具栏
 (menu-bar-mode -1)                 ; 不显示菜单栏
 (maximize)                         ; 最大化窗口
-(fullscreen)
 
 (provide 'init-startup)

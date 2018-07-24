@@ -12,4 +12,6 @@
             0                           ; no additional indent
           ad-do-it)))                   ; default behavior
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (provide 'init-ide)
