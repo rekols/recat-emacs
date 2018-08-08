@@ -8,7 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'hacker-theme)
+(require 'dark-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'paredit)
@@ -27,5 +27,7 @@
 (require 'init-dired)
 (require 'init-key)
 (require 'init-eaf)
-
+(require 'init-speedbar)
+;(require 'init-rainbow-delimiters)
 (provide 'loader)
+
