@@ -12,7 +12,7 @@
 (setq linum-format " %d ")
 
 (custom-set-variables
- '(tabbar-background-color "#DEDEDE"))
+ '(tabbar-background-color "#F2F2F2"))
 
 (custom-set-faces
    '(default ((t (:background "#F2F2F2" :foreground "gray20"))))
@@ -43,8 +43,8 @@
    '(lazy-highlight ((t (:background "#FFEF0B" :foreground "#5D5D5D"))))
 
    ;; tabbar
-   '(tabbar-default ((t (:inherit variable-pitch :background "#EDEDED" :foreground "gray20" :height 1.1 :family "Droid Sans Mono"))))
-   '(tabbar-separator ((t (:inherit tabbar-default :background "#EDEDED" :height 0.1))))
+   '(tabbar-default ((t (:inherit variable-pitch :background "#F2F2F2" :foreground "gray20" :height 1.1 :family "Droid Sans Mono"))))
+   '(tabbar-separator ((t (:inherit tabbar-default :background "#F2F2F2" :height 0.1))))
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#C9C9CA")))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "#DEDEDE" :foreground "gray50" :box (:line-width 1 :color "#CCCCCC")))))
 
