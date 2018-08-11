@@ -8,9 +8,10 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'hacker-theme)
+(require 'light-theme)
 (require 'basic-toolkit)
 (require 'move-text)
+(require 'eqf)
 
 (require 'init-auto-complete)
 (require 'init-line-numbers)

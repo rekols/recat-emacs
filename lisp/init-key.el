@@ -27,6 +27,7 @@
 (define-key paredit-mode-map (kbd "C-j") 'newline)                      ; 新建一行
 (define-key paredit-mode-map (kbd "s-N") 'move-text-down)               ; 移动当前行到下一行
 (define-key paredit-mode-map (kbd "s-P") 'move-text-up)                 ; 移动当前行到上一行
+(define-key paredit-mode-map (kbd "C-k") 'kill-whole-line)              ; 清除当前行
 (define-key paredit-mode-map (kbd "M-l") 'less-minor-mode)
 
 ;; 自动补全
