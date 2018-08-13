@@ -44,7 +44,7 @@
 
    ;; tabbar
    '(tabbar-default ((t (:inherit variable-pitch :background "gray10" :foreground "green" :height 1.1 :family "Droid Sans Mono"))))
-   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#474C51")))))
+   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#474C51") :overline "green"))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "gray10" :foreground "#969696" :box (:line-width 1 :color "#474C51")))))
 
    ;; dired
