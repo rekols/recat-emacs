@@ -8,7 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'light-theme)
+(require 'lazycat-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'eqf)

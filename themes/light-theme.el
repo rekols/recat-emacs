@@ -48,7 +48,7 @@
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#C9C9CA") :overline "#2CA7F8"))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "#DEDEDE" :foreground "gray50" :box (:line-width 1 :color "#CCCCCC")))))
 
-   ;; '(tabbar-default ((t (:height 1.1 :family "Droid Sans Mono"))))
+   ;; '(tabbar-default ((t (:height 1.1))))
    ;; '(tabbar-selected ((t (:inherit tabbar-default :background "white" :foreground "gray20" :overline "#2CA7F8" :width semi-expanded))))
    ;; '(tabbar-separator ((t (:background "#E0E0E0" :distant-foreground "red" :foreground "brown" :height 0.1 :width condensed))))
    ;; '(tabbar-unselected ((t (:background "#E8EAED" :foreground "gray50" :overline "#E8EAED" :height 1.1))))
