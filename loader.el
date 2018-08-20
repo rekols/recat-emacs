@@ -8,7 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'lazycat-theme)
+(require 'dark-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'eqf)
@@ -20,6 +20,7 @@
 (require 'init-startup)
 (require 'init-paredit)
 (require 'init-tabbar)
+(require 'init-moccur)
 (require 'init-shell)
 (require 'init-ide)
 (require 'init-indent)

@@ -13,13 +13,14 @@
 (global-set-key (kbd "C-x f") 'ido-find-file)                 ; 查找文件
 (global-set-key (kbd "s-f") 'find-file-root)                  ; root打开
 (global-set-key (kbd "<C-tab>") 'tabbar-backward-tab)         ; 切换tab
-(global-set-key (kbd "<C-left>") 'tabbar-backward-tab)        ; 向左切换tab
-(global-set-key (kbd "<C-right>") 'tabbar-forward-tab)        ; 向右切换tab
+(global-set-key (kbd "M-j") 'tabbar-backward-tab)             ; 向左切换tab
+(global-set-key (kbd "M-k") 'tabbar-forward-tab)              ; 向右切换tab
 (global-set-key (kbd "s-J") 'scroll-up-line)                  ; 往上滚动
 (global-set-key (kbd "s-K") 'scroll-down-line)                ; 往下滚动
 (global-set-key (kbd "M-h") 'set-mark-command)                ; 标记
 (global-set-key (kbd "M-N") 'kill-syntax-backward+)           ; 语法向前删除
 (global-set-key (kbd "C-a") 'youdao-dictionary-search-at-point-tooltip)
+(global-set-key (kbd "M-m") 'moccur-grep-pointer)             ; moccur搜索
 
 ; paredit 快捷键
 (define-key paredit-mode-map (kbd "M-4") 'whitespace-cleanup)           ; 清除所有空格

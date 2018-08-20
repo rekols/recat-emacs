@@ -1,20 +1,4 @@
-(defvar emacs-font-name ""
-  "The font name of English.")
-(defvar emacs-font-size 14
-  "The default font size.")
-(cond
- ((featurep 'cocoa)
-  (setq emacs-font-name "Monaco"))
- ((string-equal system-type "gnu/linux")
-  (setq emacs-font-name "Droid Sans Mono")))
-(if (display-grayscale-p)
-    (progn
-      (set-frame-font (format "%s-%s" (eval emacs-font-name) (eval emacs-font-size)))
-      (set-fontset-font (frame-parameter nil 'font) 'unicode (eval emacs-font-name))))
-
-(set-face-attribute 'default nil :height 130)
-(set-fringe-mode '(0 . 0))              ;Make fringe mini size
-(setq linum-format (concat " %" (number-to-string (length (number-to-string (count-lines (point-min) (point-max))))) "d "))
+(set-fringe-mode '(0 . 0))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -40,7 +24,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(default ((t (:background "black" :foreground "#137D11"))))
+ '(default ((t (:background "black" :foreground "green3"))))
  '(ac-candidate-face ((t (:background "#191919" :foreground "#878787"))))
  '(ac-clang-candidate-face ((t (:background "#191919" :foreground "#878787"))))
  '(ac-clang-selection-face ((t (:background "darkred" :foreground "grey"))))
@@ -216,6 +200,8 @@
  '(italic ((t (:underline nil :slant normal))))
  '(lazy-highlight ((((class color) (min-colors 88) (background dark)) (:background "grey20"))))
  '(linum ((t (:background "black" :foreground "gray35"))))
+ '(line-number ((t (:background "black" :foreground "gray50"))))
+ '(line-number-current-line ((t (:background "black" :foreground "gray80"))))
  '(magit-blame-heading ((t (:foreground "tan4" :slant normal :weight normal))))
  '(magit-blame-highlight ((t (:foreground "tan4"))))
  '(magit-branch-current ((t (:foreground "Dodgerblue" :weight extra-bold))))
@@ -318,7 +304,7 @@
  '(tabbar-selected ((t (:inherit tabbar-default :background "black" :foreground "green3" :overline "green3" :weight ultra-bold :width semi-expanded))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "black" :foreground "grey" :box (:line-width -1 :color "grey" :style released-button)))))
  '(tabbar-separator ((t (:background "black" :distant-foreground "red" :foreground "brown" :height 0.1 :width condensed))))
- '(tabbar-unselected ((t (:background "black" :foreground "dark green" :overline "dark green" :height 1.2))))
+ '(tabbar-unselected ((t (:background "black" :foreground "dark green" :overline "green5" :height 1.2))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :background "black" :foreground "white" :box (:line-width -1 :color "black" :style pressed-button)))))
  '(tooltip ((((class color)) (:inherit variable-pitch :background "DarkRed" :foreground "White"))))
  '(top-mode-mark-face (quote isearch))

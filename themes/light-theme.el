@@ -17,7 +17,7 @@
 (custom-set-faces
    '(default ((t (:background "#F2F2F2" :foreground "gray20"))))
    '(hl-line ((t (:background "#E9E9EA"))))
-   '(region ((t (:background "#D5D5D6" :foreground "gray20"))))
+   '(region ((t (:background "#2CA7F8" :foreground "#FFFFFF"))))
    '(cursor ((t (:background "#717171"))))
    '(header-line ((t (:foreground "white" :background "white"))))
    '(vertical-border ((t (:foreground "gray80" :background "gray80"))))
@@ -29,12 +29,6 @@
    ;; native line numbers (emacs version >= 26)
    '(line-number ((t (:background "#F2F2F2" :foreground "gray50"))))
    '(line-number-current-line ((t (:background "#F2F2F2" :foreground "gray20"))))
-
-   ;; mode-line
-   '(mode-line ((t (:background "#DEDEDE" :foreground "#3A3A3B" :box(:color "#C8C8C9" :line-width 1)))))
-   '(mode-line-buffer-id ((t (:weight bold))))
-   '(mode-line-emphasis ((t (:weight bold))))
-   '(mode-line-inactive ((t (:background "#DEDEDE" :foreground "#DEDEDE" :height 1))))
 
    '(minibuffer-prompt ((((background dark)) (:foreground "green"))))
 
@@ -48,16 +42,19 @@
    '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#C9C9CA") :overline "#2CA7F8"))))
    '(tabbar-unselected ((t (:inherit tabbar-default :background "#DEDEDE" :foreground "gray50" :box (:line-width 1 :color "#CCCCCC")))))
 
-   ;; '(tabbar-default ((t (:height 1.1))))
-   ;; '(tabbar-selected ((t (:inherit tabbar-default :background "white" :foreground "gray20" :overline "#2CA7F8" :width semi-expanded))))
-   ;; '(tabbar-separator ((t (:background "#E0E0E0" :distant-foreground "red" :foreground "brown" :height 0.1 :width condensed))))
-   ;; '(tabbar-unselected ((t (:background "#E8EAED" :foreground "gray50" :overline "#E8EAED" :height 1.1))))
-
    ;; dired
    '(diredp-dir-heading ((t (:background "gray7" :foreground "Gold"))))
    '(dired-directory ((t (:inherit (font-lock-keyword-face)))))
    '(dired-flagged ((t (:inherit (diff-hl-delete)))))
    '(dired-symlink ((t (:foreground "#FD5FF1"))))
+
+   ;; mode-line
+   '(mode-line ((t (:background "darkred" :foreground "#ffffff"))))
+   '(mode-line-highlight ((t (:height 1))))
+   '(mode-line-inactive ((t (:background "gray10" :foreground "#aaaaaa"))))
+   '(mode-line ((t (:background "gray60" :foreground "darkred" :height 0.1))))
+   '(mode-line-highlight ((t (:height 0.1))))
+   '(mode-line-inactive ((t (:background "gray85" :foreground "gray85" :height 0.1))))
 
    ;; font-lock
  )
