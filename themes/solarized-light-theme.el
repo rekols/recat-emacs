@@ -12,11 +12,11 @@
 (setq linum-format " %d ")
 
 (custom-set-variables
- '(tabbar-background-color "#F2F2F2"))
+ '(tabbar-background-color "#FDF6E3"))
 
 (custom-set-faces
-   '(default ((t (:background "#F2F2F2" :foreground "gray20"))))
-   '(hl-line ((t (:background "#E9E9EA"))))
+   '(default ((t (:background "#FDF6E3" :foreground "#002B36"))))
+   '(hl-line ((t (:background "#EDE7D4"))))
    '(region ((t (:background "#2CA7F8" :foreground "#FFFFFF"))))
    '(cursor ((t (:background "#717171"))))
    '(header-line ((t (:foreground "white" :background "white"))))
@@ -25,10 +25,10 @@
    '(show-paren-mismatch ((t (:background "red" :foreground "white"))))
 
    ;; linum
-   '(linum ((t (:background "#F2F2F2" :foreground "#gray50"))))
+   '(linum ((t (:background "#EEE8D5" :foreground "#gray50"))))
    ;; native line numbers (emacs version >= 26)
-   '(line-number ((t (:background "#F2F2F2" :foreground "gray50"))))
-   '(line-number-current-line ((t (:background "#F2F2F2" :foreground "gray20"))))
+   '(line-number ((t (:background "#EEE8D5" :foreground "gray50"))))
+   '(line-number-current-line ((t (:background "#EEE8D5" :foreground "gray20"))))
 
    '(minibuffer-prompt ((((background dark)) (:foreground "green"))))
 
@@ -37,14 +37,10 @@
    '(lazy-highlight ((t (:background "#FFEF0B" :foreground "#5D5D5D"))))
 
    ;; tabbar
-   '(tabbar-button ((t (:inherit tabbar-default :background "black" :foreground "red" :box (:line-width 1 :color "black" :style released-button)))))
-   '(tabbar-button-highlight ((t (:inherit tabbar-default :background "black" :foreground "green" :box (:color "red")))))
-   '(tabbar-default ((t (:height 1.2))))
-   '(tabbar-selected ((t (:inherit tabbar-default :background "#F2F2F2" :foreground "gray20" :overline "#2CA7F8" :weight ultra-bold :width semi-expanded))))
-   '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "black" :foreground "grey" :box (:line-width -1 :color "grey" :style released-button)))))
-   '(tabbar-separator ((t (:background "#F2F2F2" :distant-foreground "red" :foreground "brown" :height 0.1 :width condensed))))
-   '(tabbar-unselected ((t (:background "#DEDEDE" :foreground "gray50" :overline "green5" :height 1.2))))
-   '(tabbar-unselected-face ((t (:inherit tabbar-default-face :background "black" :foreground "white" :box (:line-width -1 :color "black" :style pressed-button)))))
+   '(tabbar-default ((t (:inherit variable-pitch :background "#FDF6E3" :foreground "gray20" :height 1.1))))
+   '(tabbar-separator ((t (:inherit tabbar-default :background "#F2F2F2" :height 0.1))))
+   '(tabbar-selected ((t (:inherit tabbar-default :box (:line-width 1 :color "#C9C9CA") :overline "#403513"))))
+   '(tabbar-unselected ((t (:inherit tabbar-default :background "#F2F0E6" :foreground "gray50" :box (:line-width 1 :color "#CCCCCC")))))
 
    ;; dired
    '(diredp-dir-heading ((t (:background "gray7" :foreground "Gold"))))
@@ -56,11 +52,11 @@
    '(mode-line ((t (:background "darkred" :foreground "#ffffff"))))
    '(mode-line-highlight ((t (:height 1))))
    '(mode-line-inactive ((t (:background "gray10" :foreground "#aaaaaa"))))
-   '(mode-line ((t (:background "gray60" :foreground "darkred" :height 0.1))))
+   '(mode-line ((t (:background "#586E83" :foreground "darkred" :height 0.1))))
    '(mode-line-highlight ((t (:height 0.1))))
    '(mode-line-inactive ((t (:background "gray85" :foreground "gray85" :height 0.1))))
 
    ;; font-lock
  )
 
-(provide 'light-theme)
+(provide 'solarized-light-theme)

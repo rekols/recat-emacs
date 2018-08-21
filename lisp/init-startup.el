@@ -1,5 +1,5 @@
 ;; some versions of emacs may require set-default-font.
-(set-frame-font "SF Mono-15")    ; 设置默认字体
+(set-frame-font "Noto Mono-15")    ; 设置默认字体
 (global-hl-line-mode t)            ; 高亮当前行
 (blink-cursor-mode -1)             ; 光标不闪动
 (show-paren-mode t)                ; 高亮显示括号
