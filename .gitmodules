@@ -1,0 +1,6 @@
+[submodule "extensions/emacs-application-framework"]
+	path = extensions/emacs-application-framework
+	url = git@github.com:manateelazycat/emacs-application-framework.git
+[submodule "extensions/color-rg"]
+	path = extensions/color-rg
+	url = git@github.com:manateelazycat/color-rg.git

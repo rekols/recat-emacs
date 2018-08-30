@@ -8,9 +8,13 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-(require 'lazycat-theme)
+;; (require 'solarized-dark-theme)
+;; (load-theme 'solarized-dark t)
+
+(require 'dark-theme)
 (require 'basic-toolkit)
 (require 'move-text)
+(require 'color-rg)
 
 (require 'init-auto-complete)
 (require 'init-line-numbers)
@@ -27,6 +31,12 @@
 (require 'init-dired)
 (require 'init-key)
 (require 'init-eaf)
-(require 'init-lsp)
+
+(setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
+                         ("melpa" . "http://elpa.emacs-china.org/melpa/")))
+
+;; init doom modeline.
+(require 'doom-modeline)
+(doom-modeline-init)
 
 (provide 'loader)
