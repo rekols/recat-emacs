@@ -1,6 +1,6 @@
 # Rekols's Emacs
 
-折腾什么 Spacemacs, DoomEmacs...未必100%符合自己的口味, 每个 Emacser 都有自己的配置, 原生的 Emacs 超级难用.
+我的 Emacs 配置.
 
 ## 最低版本支持
 
@@ -11,7 +11,7 @@ Emacs 26.1
 ```
 $ git clone -b master git://git.sv.gnu.org/emacs.git
 
-$ ./autogen.sh 
+$ ./autogen.sh
 
 $ ./configure
 
@@ -72,5 +72,3 @@ Less (只读模式) | M-l
 root打开 | s-f
 有道翻译 | C-a
 终端 | M-t
-
-
