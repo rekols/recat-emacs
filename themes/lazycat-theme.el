@@ -1,10 +1,26 @@
+;; Set font and size.
+(defvar emacs-font-name ""
+  "The font name of English.")
+(defvar emacs-font-size 14
+  "The default font size.")
+(cond
+ ((featurep 'cocoa)
+  (setq emacs-font-name "Monaco"))
+ ((string-equal system-type "gnu/linux")
+  (setq emacs-font-name "Noto Mono")))
+(if (display-grayscale-p)
+    (progn
+      (set-frame-font (format "%s-%s" (eval emacs-font-name) (eval emacs-font-size)))
+      (set-fontset-font (frame-parameter nil 'font) 'unicode (eval emacs-font-name))))
+
+;; Set line height.
+(set-face-attribute 'default nil :height 130)
+
+;; Make fringe mini size.
 (set-fringe-mode '(0 . 0))
 
+;; Set face variable.
 (custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
  '(hl-paren-colors (quote ("Cyan" "Gold" "Red")))
  '(imaxima-bg-color "black")
  '(imaxima-equation-color "Green3")
@@ -17,14 +33,12 @@
  '(tabbar-background-color "black")
  '(term-default-bg-color "#000000")
  '(term-default-fg-color "#dddd00")
- '(tramp-verbose 0))
+ '(tramp-verbose 0)
+ )
 
+;; Set face.
 (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:background "black" :foreground "green3"))))
+ '(default ((t (:background "black" :foreground "green2"))))
  '(ac-candidate-face ((t (:background "#191919" :foreground "#878787"))))
  '(ac-clang-candidate-face ((t (:background "#191919" :foreground "#878787"))))
  '(ac-clang-selection-face ((t (:background "darkred" :foreground "grey"))))
@@ -199,9 +213,8 @@
  '(isearch-fail ((((class color) (min-colors 88) (background dark)) (:background "red4" :foreground "white"))))
  '(italic ((t (:underline nil :slant normal))))
  '(lazy-highlight ((((class color) (min-colors 88) (background dark)) (:background "grey20"))))
- '(linum ((t (:background "black" :foreground "gray35"))))
- '(line-number ((t (:background "black" :foreground "gray50"))))
- '(line-number-current-line ((t (:background "black" :foreground "gray80"))))
+ '(line-number ((t (:background "black" :foreground "gray35"))))
+ '(line-number-current-line ((t (:background "black" :foreground "gray70"))))
  '(magit-blame-heading ((t (:foreground "tan4" :slant normal :weight normal))))
  '(magit-blame-highlight ((t (:foreground "tan4"))))
  '(magit-branch-current ((t (:foreground "Dodgerblue" :weight extra-bold))))
@@ -300,11 +313,11 @@
  '(speedbar-separator-face ((((class color) (background dark)) (:background "DarkRed" :foreground "white" :overline "gray"))))
  '(tabbar-button ((t (:inherit tabbar-default :background "black" :foreground "red" :box (:line-width 1 :color "black" :style released-button)))))
  '(tabbar-button-highlight ((t (:inherit tabbar-default :background "black" :foreground "green" :box (:color "red")))))
- '(tabbar-default ((t (:height 1.2))))
+ '(tabbar-default ((t (:height 1.3))))
  '(tabbar-selected ((t (:inherit tabbar-default :background "black" :foreground "green3" :overline "green3" :weight ultra-bold :width semi-expanded))))
  '(tabbar-selected-face ((t (:inherit tabbar-default-face :background "black" :foreground "grey" :box (:line-width -1 :color "grey" :style released-button)))))
  '(tabbar-separator ((t (:background "black" :distant-foreground "red" :foreground "brown" :height 0.1 :width condensed))))
- '(tabbar-unselected ((t (:background "black" :foreground "dark green" :overline "green5" :height 1.2))))
+ '(tabbar-unselected ((t (:background "black" :foreground "dark green" :overline "dark green" :height 1.3))))
  '(tabbar-unselected-face ((t (:inherit tabbar-default-face :background "black" :foreground "white" :box (:line-width -1 :color "black" :style pressed-button)))))
  '(tooltip ((((class color)) (:inherit variable-pitch :background "DarkRed" :foreground "White"))))
  '(top-mode-mark-face (quote isearch))
@@ -375,6 +388,16 @@
  '(mode-line ((t (:background "darkred" :foreground "darkred" :height 0.1))))
  '(mode-line-highlight ((t (:height 0.1))))
  '(mode-line-inactive ((t (:background "gray10" :foreground "gray10" :height 0.1))))
+ '(rg-file-tag-face ((t (:foreground "blue"))))
+ '(rg-filename-face ((t (:foreground "purple"))))
+ '(rg-info-face ((t (:foreground "green"))))
+ '(rg-match-face ((t (:foreground "gold"))))
+ '(epe-dir-face ((t (:foreground "green3"))))
+ '(epe-git-face ((t (:foreground "systemRedColor"))))
+ '(epe-pipeline-delimiter-face ((t (:foreground "green4"))))
+ '(epe-pipeline-host-face ((t (:foreground "systemGreenColor"))))
+ '(epe-pipeline-time-face ((t (:foreground "systemGrayColor"))))
+ '(epe-pipeline-user-face ((t (:foreground "gold"))))
  )
 
 (provide 'lazycat-theme)

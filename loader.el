@@ -11,7 +11,7 @@
 ;; (require 'solarized-dark-theme)
 ;; (load-theme 'solarized-dark t)
 
-(require 'dark-theme)
+(require 'yellow-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'color-rg)
