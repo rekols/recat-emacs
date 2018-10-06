@@ -4,3 +4,6 @@
 [submodule "extensions/color-rg"]
 	path = extensions/color-rg
 	url = git@github.com:manateelazycat/color-rg.git
+[submodule "extensions/cquery"]
+	path = extensions/cquery
+	url = git@github.com:cquery-project/emacs-cquery.git

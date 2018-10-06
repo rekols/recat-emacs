@@ -22,11 +22,9 @@ $ sudo make install
 
 ## 依赖
 
-[SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font) 字体
+* [SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font) 字体
 
-## 插件
-
-## 特点
+* doom-modeline
 
 ## 快捷键
 

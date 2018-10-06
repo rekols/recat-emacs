@@ -11,7 +11,7 @@
 ;; (require 'solarized-dark-theme)
 ;; (load-theme 'solarized-dark t)
 
-(require 'yellow-theme)
+(require 'dark-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'color-rg)
@@ -22,7 +22,7 @@
 (require 'init-mode-line)
 (require 'init-startup)
 (require 'init-paredit)
-(require 'init-tabbar)
+;; (require 'init-tabbar)
 (require 'init-moccur)
 (require 'init-shell)
 (require 'init-ide)
@@ -38,5 +38,7 @@
 ;; init doom modeline.
 (require 'doom-modeline)
 (doom-modeline-init)
+
+(require 'insert-translated-name)
 
 (provide 'loader)

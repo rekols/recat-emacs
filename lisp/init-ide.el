@@ -12,7 +12,6 @@
 ;;             0                           ; no additional indent
 ;;           ad-do-it)))                   ; default behavior
 
-
 ;; 保存后自动清除末尾空格
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 
