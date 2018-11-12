@@ -30,15 +30,18 @@
 (require 'init-smex)
 (require 'init-dired)
 (require 'init-key)
-(require 'init-eaf)
+;; (require 'init-eaf)
 
 (setq package-archives '(("gnu"   . "http://elpa.emacs-china.org/gnu/")
                          ("melpa" . "http://elpa.emacs-china.org/melpa/")))
 
 ;; init doom modeline.
-(require 'doom-modeline)
-(doom-modeline-init)
+;;(require 'doom-modeline)
+;;(doom-modeline-init)
 
 (require 'insert-translated-name)
+
+(require 'awesome-tray)
+(awesome-tray-mode 1)
 
 (provide 'loader)
