@@ -8,23 +8,11 @@ Emacs 26.1
 
 ## 编译 Emacs
 
-```
-$ git clone -b master git://git.sv.gnu.org/emacs.git
-
-$ ./autogen.sh
-
-$ ./configure
-
-$ make
-
-$ sudo make install
-```
+[Debian 下 Emacs 编译指南](https://rekols.com/2018/10/07/emacs-compile.html)
 
 ## 依赖
 
 * [SF Mono](https://github.com/ZulwiyozaPutra/SF-Mono-Font) 字体
-
-* doom-modeline
 
 ## 快捷键
 
