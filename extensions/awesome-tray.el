@@ -122,12 +122,12 @@
   "Modular tray bar."
   :group 'awesome-tray)
 
-(defcustom awesome-tray-mode-line-active-color "DarkRed"
+(defcustom awesome-tray-mode-line-active-color "#4584F4"
   "Active color."
   :type 'string
   :group 'awesome-tray)
 
-(defcustom awesome-tray-mode-line-inactive-color "Gray10"
+(defcustom awesome-tray-mode-line-inactive-color "#C1C1C1"
   "Inactive color."
   :type 'string
   :group 'awesome-tray)
@@ -152,7 +152,7 @@ Maybe you need set this option with bigger value to speedup on Windows platform.
   :group 'awesome-tray)
 
 (defface awesome-tray-module-mode-name-face
-  '((t (:foreground "green3" :bold t)))
+  '((t (:foreground "#4584F4" :bold t)))
   "Mode name face."
   :group 'awesome-tray)
 

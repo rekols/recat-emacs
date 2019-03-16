@@ -8,10 +8,7 @@
 (add-subdirs-to-load-path "~/remacs/extensions")
 (add-subdirs-to-load-path "~/remacs/themes")
 
-;; (require 'solarized-dark-theme)
-;; (load-theme 'solarized-dark t)
-
-(require 'dark-theme)
+(require 'light-theme)
 (require 'basic-toolkit)
 (require 'move-text)
 (require 'color-rg)
